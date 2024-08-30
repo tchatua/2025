@@ -1,0 +1,46 @@
+Database Automation (MS SQL):
+
+SQL Server (Azure Cloud)
+- Database (devopsmeladb)
+- Manaul deployment --> Scripts (Table Creation/Insert)
+- Database --> dacpac
+- DB Repos --> VS DB project --> Import dacpac --> New Table --> Add script in SCRIPT folder
+- CI/CD pipelines...
+
+bacpac --> backup packages (Complete backup of database)
+          {All Schema + Data}...
+
+dacpac -- Data Tier Application packages
+		  {All Schema/Objects/Tables/Function etc...} {No Data}
+
+DDL --> Dacpac supports only DDL operation
+		DDL --> Data Definition Language
+		Create database, tables, schemas, etc...
+		Commands: create, drop, rename and alter...
+
+DML --> Dapac doesn't support DML operation
+        DML --> Data Manipulation Language
+        Insert, update, delete --> Commands
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
